@@ -1,1 +1,1 @@
-<h1>Alexa's Architecture Portfolio</h1>
+<img src="/memes/sadcat.jpg" alt="White and gray cat with teary eyes and a downturned mouth sitting indoors, expressing a sad and forlorn emotion, with a blurred background suggesting a home environment" />
