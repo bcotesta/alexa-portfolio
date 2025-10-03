@@ -1,0 +1,3 @@
+[build]
+  command = "npm run build" # or "yarn build"
+  publish = ".svelte-kit/netlify" # This is the default publish directory for the Netlify adapter
