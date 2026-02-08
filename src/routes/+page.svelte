@@ -29,15 +29,21 @@
 <div class="page-container">
     <section class="page landing-section">
         <h1>Alexa Cotesta</h1>
-        <h3>Portfolio</h3>
-    </section>
-    
-    <section class="page work-section">
-        <Work />
+        <!-- <h3>Portfolio</h3> -->
+        <h3><a href="PDF/AlexaCotesta_ArchPotrfolio2026.pdf" target="_blank">Portfolio</a> | <a href="PDF/Resume_AlexaCotesta2026.pdf" target="_blank">Resume</a></h3>
+
         <footer>
             <p>COPYRIGHT © 2025 ALEXA COTESTA - SITE BY <a target="_blank" href="https://bcotesta.xyz">BRANDON COTESTA</a></p>
         </footer>
     </section>
+    
+    <!-- IMPLEMENT THIS AGAIN LATER!!!!!!!!!!!!!!!!!! -->
+    <!-- <section class="page work-section">
+        <Work />
+        <footer>
+            <p>COPYRIGHT © 2025 ALEXA COTESTA - SITE BY <a target="_blank" href="https://bcotesta.xyz">BRANDON COTESTA</a></p>
+        </footer>
+    </section> -->
 </div>
 
 <!-- <img 
@@ -69,10 +75,30 @@
     }
 
     .landing-section {
+        position: relative;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .landing-section a {
+        color: inherit;
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+        transition: border-color 0.3s ease;
+    }
+    
+    .landing-section a:hover {
+        border-color: currentColor;
+    }
+
+    .landing-section footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-top: 0;
     }
 
     .work-section {
@@ -108,7 +134,7 @@
         font-family: 'Noto Serif', serif;
         font-weight: 400;
         text-align: center;
-        font-size: max(20px, 4vh);
+        font-size: max(px, 3vh);
         margin-top: 1rem;
     }
 
